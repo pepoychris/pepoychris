@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Christian's project constellation</title>
+  <desc id="desc">Four selected projects: GeoWarden, Gozadera, Task Management System and Flight Management System.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/><stop offset="1" stop-color="#0c2631"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#32f5c8"/><stop offset="1" stop-color="#46a8ff"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#8ec9e8" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="390" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="390" rx="22" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="42" y="34" fill="#7e9bad" font-size="11" font-weight="750" letter-spacing="2.8">PROJECT CONSTELLATION / FOUR SYSTEMS, FOUR DIFFERENT PROBLEMS</text>
+    <path d="M600 195L315 112M600 195L885 112M600 195L315 282M600 195L885 282" stroke="#52758b" stroke-width="1.5" stroke-dasharray="5 7" opacity=".55"/>
+    <circle cx="600" cy="195" r="34" fill="#102b3a" stroke="url(#accent)" stroke-width="2"/>
+    <circle cx="600" cy="195" r="5" fill="#32f5c8" filter="url(#glow)"/>
+    <text x="600" y="250" text-anchor="middle" fill="#688da2" font-size="9" font-weight="700" letter-spacing="1.7">BUILD / TEST / LEARN</text>
+
+    <g transform="translate(42 61)">
+      <rect width="505" height="123" rx="16" fill="#0f2534" stroke="#32f5c8" stroke-opacity=".62"/>
+      <circle cx="30" cy="30" r="8" fill="#32f5c8" filter="url(#glow)"/>
+      <text x="50" y="36" fill="#f2fbff" font-size="21" font-weight="800">GEOWARDEN</text>
+      <text x="466" y="34" text-anchor="end" fill="#32f5c8" font-size="11" font-weight="800">&lt;2s</text>
+      <text x="28" y="68" fill="#97afbd" font-size="13">Satellite imagery → structural damage assessment</text>
+      <g transform="translate(28 84)" fill="#cbe9f6" font-size="10" font-weight="700">
+        <rect width="65" height="23" rx="11.5" fill="#173747"/><text x="32.5" y="15.5" text-anchor="middle">PYTHON</text>
+        <rect x="74" width="75" height="23" rx="11.5" fill="#173747"/><text x="111.5" y="15.5" text-anchor="middle">PYTORCH</text>
+        <rect x="158" width="119" height="23" rx="11.5" fill="#173747"/><text x="217.5" y="15.5" text-anchor="middle">COMPUTER VISION</text>
+      </g>
+    </g>
+
+    <g transform="translate(653 61)">
+      <rect width="505" height="123" rx="16" fill="#0f2534" stroke="#46a8ff" stroke-opacity=".62"/>
+      <circle cx="30" cy="30" r="8" fill="#46a8ff" filter="url(#glow)"/>
+      <text x="50" y="36" fill="#f2fbff" font-size="21" font-weight="800">GOZADERA</text>
+      <text x="466" y="34" text-anchor="end" fill="#46a8ff" font-size="11" font-weight="800">250+ TESTS</text>
+      <text x="28" y="68" fill="#97afbd" font-size="13">Encrypted client-server virtual drive</text>
+      <g transform="translate(28 84)" fill="#cbe9f6" font-size="10" font-weight="700">
+        <rect width="44" height="23" rx="11.5" fill="#173747"/><text x="22" y="15.5" text-anchor="middle">GO</text>
+        <rect x="53" width="52" height="23" rx="11.5" fill="#173747"/><text x="79" y="15.5" text-anchor="middle">REST</text>
+        <rect x="114" width="45" height="23" rx="11.5" fill="#173747"/><text x="136.5" y="15.5" text-anchor="middle">TLS</text>
+        <rect x="168" width="104" height="23" rx="11.5" fill="#173747"/><text x="220" y="15.5" text-anchor="middle">CRYPTOGRAPHY</text>
+      </g>
+    </g>
+
+    <g transform="translate(42 206)">
+      <rect width="505" height="123" rx="16" fill="#0f2534" stroke="#46a8ff" stroke-opacity=".62"/>
+      <circle cx="30" cy="30" r="8" fill="#46a8ff" filter="url(#glow)"/>
+      <text x="50" y="36" fill="#f2fbff" font-size="21" font-weight="800">TASK MANAGEMENT</text>
+      <text x="466" y="34" text-anchor="end" fill="#46a8ff" font-size="10" font-weight="800">CI READY</text>
+      <text x="28" y="68" fill="#97afbd" font-size="13">Containerized productivity and delivery workflow</text>
+      <g transform="translate(28 84)" fill="#cbe9f6" font-size="10" font-weight="700">
+        <rect width="54" height="23" rx="11.5" fill="#173747"/><text x="27" y="15.5" text-anchor="middle">JAVA</text>
+        <rect x="63" width="108" height="23" rx="11.5" fill="#173747"/><text x="117" y="15.5" text-anchor="middle">SPRING BOOT</text>
+        <rect x="180" width="70" height="23" rx="11.5" fill="#173747"/><text x="215" y="15.5" text-anchor="middle">DOCKER</text>
+        <rect x="259" width="72" height="23" rx="11.5" fill="#173747"/><text x="295" y="15.5" text-anchor="middle">JENKINS</text>
+      </g>
+    </g>
+
+    <g transform="translate(653 206)">
+      <rect width="505" height="123" rx="16" fill="#0f2534" stroke="#32f5c8" stroke-opacity=".62"/>
+      <circle cx="30" cy="30" r="8" fill="#32f5c8" filter="url(#glow)"/>
+      <text x="50" y="36" fill="#f2fbff" font-size="21" font-weight="800">FLIGHT MANAGEMENT</text>
+      <text x="466" y="34" text-anchor="end" fill="#32f5c8" font-size="11" font-weight="800">+20%</text>
+      <text x="28" y="68" fill="#97afbd" font-size="13">Air-operations workflows with role-based access</text>
+      <g transform="translate(28 84)" fill="#cbe9f6" font-size="10" font-weight="700">
+        <rect width="71" height="23" rx="11.5" fill="#173747"/><text x="35.5" y="15.5" text-anchor="middle">LARAVEL</text>
+        <rect x="80" width="62" height="23" rx="11.5" fill="#173747"/><text x="111" y="15.5" text-anchor="middle">MYSQL</text>
+        <rect x="151" width="58" height="23" rx="11.5" fill="#173747"/><text x="180" y="15.5" text-anchor="middle">BLADE</text>
+      </g>
+    </g>
+    <text x="42" y="363" fill="#607f92" font-size="10" font-weight="700" letter-spacing="1.8">PUBLIC REPOSITORY / DEMO LINKS RESERVED FOR THE NEXT DEPLOYMENT</text>
+  </g>
+</svg>
+
