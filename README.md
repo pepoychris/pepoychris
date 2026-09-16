@@ -87,5 +87,5 @@ If you are working on **backend platforms, reliable APIs or delivery automation*
   <a href="https://www.linkedin.com/in/christian-ortiz-belmonte"><strong>Connect on LinkedIn</strong></a>
 </p>
 
-<p align="center"><sub>Designed as a self-hosted mission console: no generated profile template, no inflated metrics, no hidden tracking.</sub></p>
+<p align="center"><sub>Designed as a mission console: original self-hosted artwork, no generated profile template, no inflated metrics.</sub></p>
 
