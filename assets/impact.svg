@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Selected engineering impact</title>
+  <desc id="desc">Three verified project metrics: under two seconds inference, more than 250 automated tests, and twenty percent faster dashboard response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop stop-color="#0a1725"/><stop offset="1" stop-color="#0c2631"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#32f5c8"/><stop offset="1" stop-color="#46a8ff"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8ec9e8" opacity=".10"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="220" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="220" rx="22" fill="url(#dots)"/>
+  <rect x="42" y="38" width="1116" height="3" rx="1.5" fill="url(#line)" opacity=".75"/>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="44" y="27" fill="#7899ab" font-size="11" font-weight="750" letter-spacing="2.7">FIELD NOTES / MEASURABLE IMPACT</text>
+
+    <g transform="translate(44 67)">
+      <text x="0" y="57" fill="#f4fbff" font-size="55" font-weight="800">&lt;2s</text>
+      <text x="0" y="88" fill="#34e7c1" font-size="13" font-weight="750" letter-spacing="2">INFERENCE</text>
+      <text x="0" y="112" fill="#8ba6b7" font-size="13">GeoWarden combined ML pipeline</text>
+    </g>
+    <path d="M395 70V190" stroke="#8badc0" opacity=".2"/>
+    <g transform="translate(438 67)">
+      <text x="0" y="57" fill="#f4fbff" font-size="55" font-weight="800">250+</text>
+      <text x="0" y="88" fill="#46a8ff" font-size="13" font-weight="750" letter-spacing="2">AUTOMATED TESTS</text>
+      <text x="0" y="112" fill="#8ba6b7" font-size="13">Gozadera core workflows</text>
+    </g>
+    <path d="M790 70V190" stroke="#8badc0" opacity=".2"/>
+    <g transform="translate(834 67)">
+      <text x="0" y="57" fill="#f4fbff" font-size="55" font-weight="800">20%</text>
+      <text x="0" y="88" fill="#34e7c1" font-size="13" font-weight="750" letter-spacing="2">FASTER RESPONSE</text>
+      <text x="0" y="112" fill="#8ba6b7" font-size="13">Flight dashboard query optimization</text>
+    </g>
+  </g>
+</svg>
+
