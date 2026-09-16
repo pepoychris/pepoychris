@@ -10,14 +10,22 @@
 
 ## `01 // SIGNAL`
 
-I build backend systems where **clear contracts, automated verification and dependable delivery** matter.
+> **I turn backend requirements into reliable paths for data:** explicit contracts, tested behavior and repeatable delivery.
 
-My core stack is **Java + Spring Boot**, with professional experience developing financial microservices, integration and behavior tests, and CI/CD pipelines. I enjoy the point where software design meets operational confidence: APIs that are understandable, data paths that are safe, and releases that are repeatable.
-
-- Currently working as a Software Engineer at **NTT DATA**.
-- BSc in Computer Engineering, specializing in Software Development.
-- Comfortable moving between backend engineering, delivery infrastructure and applied computer vision.
-- Working languages: Spanish (native), Valencian (C1) and English (B2, Cambridge First Certificate).
+```yaml
+christian:
+  role: "Backend Software Engineer"
+  current_mission: "Financial microservices at NTT DATA"
+  coordinates: "Alicante, Spain"
+  engineering_focus:
+    - "Java + Spring Boot services"
+    - "REST APIs and persistence"
+    - "Automated integration and behavior tests"
+    - "CI/CD pipelines with quality gates"
+  wider_range: ["Go", "Python", "PyTorch", "Computer Vision"]
+  education: "BSc Computer Engineering · Software Development"
+  languages: ["Spanish · Native", "Valencian · C1", "English · B2"]
+```
 
 <div align="center">
   <img src="./assets/impact.svg" width="100%" alt="Selected engineering impact: under two seconds inference, 250+ automated tests, and 20% faster response" />
@@ -25,36 +33,29 @@ My core stack is **Java + Spring Boot**, with professional experience developing
 
 ## `02 // PROJECT BAY`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛰️ GeoWarden</h3>
-      <p><strong>Disaster analysis through computer vision.</strong> Compares pre- and post-disaster satellite imagery to assess structural damage. Separate segmentation and classification models feed an optimized inference pipeline.</p>
-      <p><code>Python</code> <code>PyTorch</code> <code>Computer Vision</code></p>
-      <sub>Repository and visual case study slot reserved.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔐 Gozadera</h3>
-      <p><strong>A secure client-server virtual drive.</strong> HTTPS REST API, interactive CLI, bbolt persistence and hybrid storage, secured with modern password hashing, encryption, signatures and end-to-end messaging.</p>
-      <p><code>Go</code> <code>REST</code> <code>TLS</code> <code>Cryptography</code></p>
-      <sub>Repository and architecture diagram slot reserved.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚙️ Task Management System</h3>
-      <p><strong>A containerized productivity application.</strong> Built with Spring MVC, Spring Data JPA and Thymeleaf, with Jenkins automation for continuous integration and repository quality.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>Docker</code> <code>Jenkins</code></p>
-      <sub>Repository and live demo slot reserved.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>✈️ Flight Management System</h3>
-      <p><strong>An air-operations management web app.</strong> CRUD workflows, advanced authentication, role-based access control and relational query optimization for a faster main dashboard.</p>
-      <p><code>Laravel</code> <code>MySQL</code> <code>Blade</code></p>
-      <sub>Repository and performance notes slot reserved.</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/projects.svg" width="100%" alt="Project constellation: GeoWarden, Gozadera, Task Management and Flight Management" />
+</div>
+
+<details>
+  <summary><strong>🛰️ GeoWarden · Computer vision for disaster analysis</strong></summary>
+  <br />Compares pre- and post-disaster satellite imagery and generates structural-damage assessments. Separate building-segmentation and damage-classification models feed a combined inference pipeline optimized to run in under two seconds.
+</details>
+
+<details>
+  <summary><strong>🔐 Gozadera · Secure virtual drive</strong></summary>
+  <br />HTTPS REST API, interactive CLI, bbolt persistence and hybrid storage. Security layers include Argon2id, AES-256-GCM, Ed25519 signatures and X25519 end-to-end messaging, with more than 250 automated tests covering core workflows.
+</details>
+
+<details>
+  <summary><strong>⚙️ Task Management · Containerized delivery</strong></summary>
+  <br />Productivity application built with Spring MVC, Spring Data JPA and Thymeleaf, packaged with Docker and supported by Jenkins automation for continuous integration and repository quality.
+</details>
+
+<details>
+  <summary><strong>✈️ Flight Management · Role-aware operations</strong></summary>
+  <br />Air-operations web application with CRUD workflows, advanced authentication and role-based access control. Relational query optimization reduced the main dashboard response time by 20%.
+</details>
 
 <!--
 PROJECT CARD TEMPLATE
@@ -65,26 +66,25 @@ Duplicate one <td> block above, then replace:
 4. A real repository/demo/case-study link
 -->
 
-## `03 // SYSTEM MAP`
+## `03 // ENGINE ROOM`
 
-| Core backend | Quality & delivery | Data & infrastructure | Additional range |
-|---|---|---|---|
-| Java, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, REST APIs, microservices, Maven | JUnit, Cucumber, Jenkins, SonarQube, Git, GitFlow, CI/CD | SQL, PostgreSQL, MySQL, Docker | Go, Python, PyTorch, computer vision |
-
-```text
-request -> contract -> service -> persistence -> verified outcome
-             |            |              |
-           tests       observability    delivery pipeline
-```
-
-## `04 // TRANSMISSION`
-
-If you are working on **backend platforms, reliable APIs or delivery automation**, I would be happy to connect.
+<div align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Engineering stack arranged as backend, quality and delivery, data and infrastructure, and additional range" />
+</div>
 
 <p align="center">
-  <a href="mailto:pepoychris@gmail.com"><strong>Send a signal</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/christian-ortiz-belmonte"><strong>Connect on LinkedIn</strong></a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java" title="Java" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="42" height="42" alt="Spring" title="Spring" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" width="42" height="42" alt="Maven" title="Maven" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" width="42" height="42" alt="JUnit" title="JUnit" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="42" height="42" alt="Docker" title="Docker" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" width="42" height="42" alt="Jenkins" title="Jenkins" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="42" height="42" alt="MySQL" title="MySQL" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="42" height="42" alt="Git" title="Git" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" width="42" height="42" alt="Go" title="Go" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42" alt="Python" title="Python" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="42" height="42" alt="PyTorch" title="PyTorch" />
 </p>
 
 <p align="center"><sub>Designed as a mission console: original self-hosted artwork, no generated profile template, no inflated metrics.</sub></p>
