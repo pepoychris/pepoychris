@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255" role="img" aria-labelledby="title desc">
+  <title id="title">Christian's engineering stack</title>
+  <desc id="desc">A layered system map showing backend, testing and delivery, data and infrastructure, and additional technologies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0c2631"/></linearGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#32f5c8"/><stop offset="1" stop-color="#46a8ff"/></linearGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8ec9e8" opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="255" rx="22" fill="url(#bg)"/><rect width="1200" height="255" rx="22" fill="url(#dots)"/>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="42" y="31" fill="#7e9bad" font-size="11" font-weight="750" letter-spacing="2.8">ENGINE ROOM / LAYERS THAT SHIP TOGETHER</text>
+    <rect x="42" y="44" width="1116" height="3" rx="1.5" fill="url(#bar)"/>
+    <g transform="translate(42 72)">
+      <rect width="264" height="142" rx="16" fill="#102736" stroke="#32f5c8" stroke-opacity=".55"/>
+      <text x="22" y="31" fill="#32f5c8" font-size="11" font-weight="800" letter-spacing="2">01 / CORE</text>
+      <text x="22" y="63" fill="#f2fbff" font-size="18" font-weight="800">Backend systems</text>
+      <text x="22" y="91" fill="#9ab1bf" font-size="12">Java · Spring Boot · MVC</text>
+      <text x="22" y="112" fill="#9ab1bf" font-size="12">JPA · Hibernate · REST · Maven</text>
+    </g>
+    <path d="M306 143H326" stroke="#46a8ff" stroke-width="2"/><path d="M321 138l5 5-5 5" fill="none" stroke="#46a8ff" stroke-width="2"/>
+    <g transform="translate(326 72)">
+      <rect width="264" height="142" rx="16" fill="#102736" stroke="#46a8ff" stroke-opacity=".55"/>
+      <text x="22" y="31" fill="#46a8ff" font-size="11" font-weight="800" letter-spacing="2">02 / PROOF</text>
+      <text x="22" y="63" fill="#f2fbff" font-size="18" font-weight="800">Quality &amp; delivery</text>
+      <text x="22" y="91" fill="#9ab1bf" font-size="12">JUnit · Cucumber · SonarQube</text>
+      <text x="22" y="112" fill="#9ab1bf" font-size="12">Jenkins · GitFlow · CI/CD</text>
+    </g>
+    <path d="M590 143H610" stroke="#32f5c8" stroke-width="2"/><path d="M605 138l5 5-5 5" fill="none" stroke="#32f5c8" stroke-width="2"/>
+    <g transform="translate(610 72)">
+      <rect width="264" height="142" rx="16" fill="#102736" stroke="#32f5c8" stroke-opacity=".55"/>
+      <text x="22" y="31" fill="#32f5c8" font-size="11" font-weight="800" letter-spacing="2">03 / DATA</text>
+      <text x="22" y="63" fill="#f2fbff" font-size="18" font-weight="800">Persistence &amp; runtime</text>
+      <text x="22" y="91" fill="#9ab1bf" font-size="12">SQL · PostgreSQL · MySQL</text>
+      <text x="22" y="112" fill="#9ab1bf" font-size="12">Docker · container workflows</text>
+    </g>
+    <path d="M874 143H894" stroke="#46a8ff" stroke-width="2"/><path d="M889 138l5 5-5 5" fill="none" stroke="#46a8ff" stroke-width="2"/>
+    <g transform="translate(894 72)">
+      <rect width="264" height="142" rx="16" fill="#102736" stroke="#46a8ff" stroke-opacity=".55"/>
+      <text x="22" y="31" fill="#46a8ff" font-size="11" font-weight="800" letter-spacing="2">04 / RANGE</text>
+      <text x="22" y="63" fill="#f2fbff" font-size="18" font-weight="800">Beyond the JVM</text>
+      <text x="22" y="91" fill="#9ab1bf" font-size="12">Go · Python · PyTorch</text>
+      <text x="22" y="112" fill="#9ab1bf" font-size="12">Computer vision · cryptography</text>
+    </g>
+    <text x="600" y="239" text-anchor="middle" fill="#67889b" font-size="10" font-weight="700" letter-spacing="2">CONTRACT → IMPLEMENTATION → VERIFICATION → REPEATABLE DELIVERY</text>
+  </g>
+</svg>
+
