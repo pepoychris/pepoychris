@@ -2,16 +2,18 @@
   <img src="./assets/hero.svg" width="100%" alt="Christian Ortiz Belmonte - Backend Software Engineer" />
 </div>
 
+
 <div align="center">
   <a href="mailto:pepoychris@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0b1e2e?style=for-the-badge&logo=gmail&logoColor=32f5c8" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/christian-ortiz-belmonte"><img src="https://img.shields.io/badge/LINKEDIN-0b1e2e?style=for-the-badge&logo=linkedin&logoColor=46a8ff" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/ALICANTE%2C%20SPAIN-0b1e2e?style=for-the-badge&logo=googlemaps&logoColor=32f5c8" alt="Alicante, Spain" />
 </div>
 
+
 ## `01 // SIGNAL`
 
-> **I turn backend requirements into reliable paths for data:** explicit contracts, tested behavior and repeatable delivery.
 
+> **I turn backend requirements into reliable paths for data:** explicit contracts, tested behavior and repeatable delivery.
 ```yaml
 christian:
   role: "Backend Software Engineer"
@@ -26,36 +28,40 @@ christian:
   education: "BSc Computer Engineering · Software Development"
   languages: ["Spanish · Native", "Valencian · C1", "English · B2"]
 ```
-
 <div align="center">
   <img src="./assets/impact.svg" width="100%" alt="Selected engineering impact: under two seconds inference, 250+ automated tests, and 20% faster response" />
 </div>
-
 ## `02 // PROJECT BAY`
 
+
 <div align="center">
-  <img src="./assets/projects.svg" width="100%" alt="Project constellation: GeoWarden, Gozadera, Task Management and Flight Management" />
+  <img src="./assets/projects.svg" width="100%" alt="Project constellation: GeoWarden, Gozadera, Coobi Logistics and RoboRoute Nexus" />
 </div>
+
 
 <details>
   <summary><strong>🛰️ GeoWarden · Computer vision for disaster analysis</strong></summary>
   <br />Compares pre- and post-disaster satellite imagery and generates structural-damage assessments. Separate building-segmentation and damage-classification models feed a combined inference pipeline optimized to run in under two seconds.
 </details>
 
+
 <details>
   <summary><strong>🔐 Gozadera · Secure virtual drive</strong></summary>
   <br />HTTPS REST API, interactive CLI, bbolt persistence and hybrid storage. Security layers include Argon2id, AES-256-GCM, Ed25519 signatures and X25519 end-to-end messaging, with more than 250 automated tests covering core workflows.
 </details>
 
-<details>
-  <summary><strong>⚙️ Task Management · Containerized delivery</strong></summary>
-  <br />Productivity application built with Spring MVC, Spring Data JPA and Thymeleaf, packaged with Docker and supported by Jenkins automation for continuous integration and repository quality.
-</details>
 
 <details>
-  <summary><strong>✈️ Flight Management · Role-aware operations</strong></summary>
-  <br />Air-operations web application with CRUD workflows, advanced authentication and role-based access control. Relational query optimization reduced the main dashboard response time by 20%.
+  <summary><strong>🚚 <a href="https://pepoychris.github.io/coobi-logistics/">Coobi Logistics · Fleet telemetry pipeline</a></strong></summary>
+  <br />Event-driven fleet telemetry pipeline with Kafka and Kafka Streams, PostgreSQL read models, Prometheus observability and a Vue + Three.js real-time console. Sustained 1,000 events/s at p95 1.41 ms in measured benchmarks.
 </details>
+
+
+<details>
+  <summary><strong>🤖 <a href="https://pepoychris.github.io/vrp-ai-playground/">RoboRoute Nexus · AI-powered route optimisation</a></strong></summary>
+  <br />3D last-mile control tower that solves bounded vehicle-routing plans with OR-Tools, simulates a fleet, re-plans after road closures and grounds a local Qwen copilot on the active revision.
+</details>
+
 
 <!--
 PROJECT CARD TEMPLATE
@@ -66,11 +72,14 @@ Duplicate one <td> block above, then replace:
 4. A real repository/demo/case-study link
 -->
 
+
 ## `03 // ENGINE ROOM`
+
 
 <div align="center">
   <img src="./assets/stack.svg" width="100%" alt="Engineering stack arranged as backend, quality and delivery, data and infrastructure, and additional range" />
 </div>
+
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java" title="Java" />&nbsp;&nbsp;
@@ -86,6 +95,7 @@ Duplicate one <td> block above, then replace:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42" alt="Python" title="Python" />&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="42" height="42" alt="PyTorch" title="PyTorch" />
 </p>
+
 
 <p align="center"><sub>Designed as a mission console: original self-hosted artwork, no generated profile template, no inflated metrics.</sub></p>
 
