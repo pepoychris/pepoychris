@@ -29,7 +29,7 @@ christian:
   languages: ["Spanish · Native", "Valencian · C1", "English · B2"]
 ```
 <div align="center">
-  <img src="./assets/impact.svg" width="100%" alt="Selected engineering impact: under two seconds inference, 250+ automated tests, and 20% faster response" />
+  <img src="./assets/impact.svg" width="100%" alt="Selected engineering impact: under two seconds inference, 1,000 events per second throughput, and local AI copilot" />
 </div>
 ## `02 // PROJECT BAY`
 
